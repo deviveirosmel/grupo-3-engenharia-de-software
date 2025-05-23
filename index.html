@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina de Desenvolvimento de Jogos UniFasar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/691239accf.js" crossorigin="anonymous"></script>
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header id="home">
+        <nav>
+           <ul>
+            <i class="fa-solid fa-chevron-right"></i><li><a href="#home">Início</a></li>
+            <i class="fa-solid fa-chevron-right"></i><li><a href="#sobre">Sobre</a></li>
+            <i class="fa-solid fa-chevron-right"></i><li><a href="#dados">Dados</a></li>
+            <i class="fa-solid fa-chevron-right"></i><li><a href="jogar.html">Jogar</a></li>
+            </ul>
+        </nav>
+
+        <div id="intro">
+            <h1>Oficina de Desenvolvimento de Jogos </h1>
+            <h4>Engenharia de Software UniFasar - 1º Período 2025</h4>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="info" id="sobre">
+            <h2>Sobre o projeto</h2>
+            <p>Em iniciativa fomentada pela UniFasar, nós, alunos do 1º período de Engenharia de Software (2025) buscamos difundir 
+                conhecimento e incentivar o interesse de jovens pela nossa área ao apresentar os fundamentos do desenvolvimento de 
+                jogos. Neste site está disponível todo o conteúdo da palestra realizada pelos alunos Guilherme, Victor, Melissa, 
+                Nicolas, Daniel e Felipe em [ESCOLA] na data [DD/MM/AAAA].
+            </p>
+
+            <h4><button value="OpenWindow" onclick="openWin()">Confira a apresentação do tema no Canva!</button></h4>
+        </div>
+
+        <div class="divimg" id="dados">
+            <img src="images/about.png" alt="Foto em close up mostrando as mãos de uma pessoa branca, com as unhas pintadas de bege, segurando um controle de PlayStation.">
+        </div>
+
+        <div class="wcolumns">
+            <div class="col1">
+                <h3>O que são jogos?</h3>
+                <p>Um jogo pode ser definido como um sistema no qual jogadores interagem com um conflito artificial, definido por 
+                    regras, que resulta em um objetivo quantificável, de acordo com Tekinbas e Zimmerman (2003.)
+                </p>
+            </div>
+            <div class="col2">
+                <h3>Que elementos definem um jogo?</h3>
+                <p>De acordo com os autores, os jogos dependem de um sistema, jogadores, artificialidade, conflito, regras e um objetivo 
+                    quantificável. 
+                </p>
+            </div>
+        </div>
+
+        <div id="timelinebox">
+            <h2>Uma linha do tempo...</h2>
+            <div class="timeline">
+                <div class="cont left">
+                <div class="content">
+                    <h2>1952</h2>
+                    <p>Surgem os primeiros jogos digitais:
+                        <ul>
+                            <li>OXO: criado em 1952 e era uma espécie “jogo da velha”</li>
+                            <li>Tennis for two: Primeiro jogo com interação em tela</li>
+                        </ul>
+                        </p>
+                </div>
+                </div>
+
+                <div class="cont right">
+                <div class="content">
+                    <h2>1978</h2>
+                    <p>A Era dos Arcades, que foi até meados de 1986:
+                        <ul>
+                            <li>Grandes sucessos: Pac-man e Space invaders</li>
+                        </ul>
+                    </p>
+                </div>
+                </div>
+
+                <div class="cont left">
+                    <div class="content">
+                    <h2>1980</h2>
+                    <p>A Era dos consoles domésticos, que foi mais proeminente entre as décadas de 80 e 90, mas continua até hoje:
+                        <ul>
+                            <li>Super Mario Bros se destacou por sua jogabilidade precisa e músicas memoráveis</li>
+                        </ul>
+                    </p>
+                    </div>
+                </div>
+
+                <div class="cont right">
+                    <div class="content">
+                    <h2>2013</h2>
+                    <p>Foi mais ou menos quando começou a Era Atual, que é definida por:
+                        <ul>
+                            <li>Jogos com investimentos cada vez mais altos</li>
+                            <li>Jogos ultra realistas</li>
+                        </ul>
+                    </p>
+                    </div>
+                </div>
+
+                <div class="cont right">
+                    <h2>... até os dias atuais</h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="dev">
+            <h2>Os Elementos do Desenvolvimento</h2>
+
+            <div class="gridcontainer">
+                <div class="griditem">
+                    <h5>Roteirização</h5>
+                    <p>Planejamento e outline dos elementos e história do game.</p>
+                </div>
+
+                <div class="griditem">
+                    <h5>Conceituação</h5>
+                    <p>Desenvolvimento do conceito visual ideal do jogo.</p>
+                </div>
+
+                <div class="griditem">
+                    <h5>Jogabilidade</h5>
+                    <p>Estruturação das mecânicas do jogo.</p>
+                </div>  
+
+                <div class="griditem">
+                    <h5>Interface</h5>
+                    <p>Design da interface e experiência do usuário.</p>
+                </div>
+
+                <div class="griditem">
+                    <h5>Assets</h5>
+                    <p>Formulação de recursos complementares do game.</p>
+                </div>
+
+                <div class="griditem">
+                    <h5>Modelagem</h5>
+                    <p>Criação dos modelos de personagens, cenários, etc.</p>
+                </div>
+
+                <div class="griditem">
+                    <h5>Engines</h5>
+                    <p>Utilização dos motores de jogo para desenvolvimento de física e funcionalidades.</p>
+                </div>
+
+                <div class="griditem">
+                    <h5>IA</h5>
+                    <p>Implementação de Inteligência Artificial para comportamentos necessários.</p>
+                </div>
+
+                <div class="griditem">
+                    <h5>Testes</h5>
+                    <p>Processo de testes e resolução de problemas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="coding">
+            <h2>A Programação de um Jogo</h2>
+
+            <div class="bigcolumns">
+                <div class="bcol1">
+                    <img src="images/coding.png" alt="Imagem de pessoa de cabelo castanho curto sentada de costas para a câmera. Na frente da pessoa há um computador, com a tela mostrando código desfocado em desenvolvimento.">
+                </div>
+
+                <div class="bcol2">
+                    <h3>A lógica</h3>
+                    <p>A lógica de programação de um jogo define como ele se estrutura por meio de regras e algoritmos. Para isso, é
+                        necessário combinar criatividade ao raciocínio estruturado. 
+                    </p>
+                    <p>
+                        São necessárias ferramentas específicas para transformar comandos em aplicações práticas. Essas ferramentas
+                        são as chamadas <i>engines</i>, também conhecidas como "motores de jogo". Exemplos de engines são Unity,
+                        Construct 3, Godot Engine, Game Maker, entre outras.
+                    </p>
+                    <h3 id="bugs">E os bugs?</h3>
+                    <p>
+                        Bug é um termo utilizado pra descrever falhas e erros que ocorrem no funcionamento de um hardware ou de um 
+                        software. Sua origem se deve a Thomas Edison que utilizava o termo regularmente para se referir às 
+                        dificuldades encontradas nas suas invenções.
+                    </p>
+                    <p>
+                        O termo bug se popularizou, devido a um acidente em 1947 onde um inseto (do inglês: "bug"🪲) entrou em um 
+                        componente físico do computador MARK II, comprometendo a integridade do aparelho.
+                    </p>
+                    <p>
+                        Com o tempo surgiu o termo "debugging" que seria o ato de encontrar e resolver estas falhas técnicas.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="divimg" id="graphimg">
+            <img src="images/graphics.png" id="switch" alt="Foto próxima das mãos de uma pessoa segurando um Nintendo Switch. Na tela, há uma imagem de carregamento do jogo Fortnite.">
+        </div>
+
+        <div class="graphics">
+            <h2>Design Visual</h2>
+            <div class="wcolumns">
+                <div class="col1">
+                    <p>A parte visual de um jogo começa a tomar forma com artes conceituais, desenvolvidas antes da decisão final quanto à arte 
+                        do jogo. Assim, as artes conceituais podem ser muito diferentes dos modelos de um game. Os storyboards também são parte 
+                        do desenvolvimento inicial da identidade visual de um game, e são importantes para definir cenas e momentos específicos. 
+                        Por causa disso, muitas ferramentas podem ser utilizadas ao longo do processo artístico, desde papel e caneta à softwares
+                        específicos. 
+                    </p>
+                    <p>
+                        O desenvolvimento de um jogo envolve muito mais do que a modelagem de personagens e ambientes, no entanto. São 
+                         utilizados mapas, texturas, assets em 2D e 3D, além de haver um grande foco no design de uma interface intuitiva,
+                         eficaz e coerente com o visual do game.
+                    </p>
+                </div>
+
+                <div class="col2">
+                    <p>Os modelos 3D são essenciais em muitos jogos modernos, e são desenvolvidos em softwares específicos, como por exemplo
+                        o Blender. Depois dos modelos prontos, tudo que se move ou pode ter sua forma alterada passa pelo processo de <i>rigging</i>,
+                        ganhando um "esqueleto" que possibilita a interação com as regras de física e deslocamento que orientam o jogo. Além da 
+                        interação com a parte mecânica e a jogabilidade, o visual do jogo utiliza ainda elementos como iluminação e efeitos especiais.
+                    </p>
+                    <p>
+                        Softwares específicos para o desenvolvimento de games, como as chamadas <i>engines</i> contam com ferramentas próprias para 
+                        aspectos do desenvolvimento, como renderização, física, animação, detecção de colisão, inteligência artificial e mais. A 
+                        Unreal Engine é um exemplo conhecido desses softwares, mas algumas empresas contam com suas próprias <i>engines</i>, como é
+                        o caso da Frostbite, da EA Games, ou da Rockstar Advanced Game Engine (RAGE), da Rockstar Games.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="learning">
+            <h2>Jogos e Aprendizado</h2>
+
+            <div class="bigcolumns">
+                <div class="bcol2">
+                    <p>De acordo com Lynn Alves (2008), é possível identificar nos discursos interativos dos games questões éticas,
+                        políticas, ideológicas, culturais, entre outras. Dessa forma, é possível utilizar os jogos como instrumento,
+                        permitindo que os alunos interajam com uma mídia com que apreciam, ao mesmo tempo em que aprendem a ver além
+                        do entretenimento proporcionado por essa mídia. A contextualização seria essencial para isso, uma vez que
+                        não basta utilizar os jogos sem construir um sentido para esta utilizacão.
+                    </p>
+                    <p>
+                        A discussão sobre utilizar jogos na aprendizagem é antiga, sendo investigada desde a década de 80 por meio
+                        das pesquisas de autores como Babin e Kouloumdjian (1989). Para que isso ocorra, é preciso interação dos 
+                        docentes com a mídia, e uma abordagem que, de acordo com Alves (2008), compreenda "os jogos eletrônicos 
+                        como fenômenos culturais que exigem a construção de distintos olhares, indo além de perspectivas maniqueístas
+                         como se estes elementos culturais fossem sempre os bandidos nas histórias que envolvem comportamentos 
+                         violentos, sedentarismo, longas horas de interação com os jogos, desmotivação escolar, reprovação e 
+                         evasão da escola." Essas leituras são construídas a partir de um ponto de vista reducionista, que apenas 
+                         dificulta o aproveitamento dessa mídia, uma vez que dificulta o diálogo entre os professores e os jogadores/alunos.
+                    </p>
+                    <p>
+                        Além dos benefícios e possibilidades no estudo do currículo tradicional, trabalhar com jogos também permite
+                        colocar alunos em contato com outras áreas, como a programação. Com isso, é possível despertar interesse na 
+                        área de tecnologia, elemento central na atualidade, por meio de experiências interativas e simples que podem
+                        expandir o conhecimento dos alunos.
+                    </p>
+                </div>
+
+                <div class="bcol1">
+                    <img src="images/learning.png" id="learnimg" alt="Imagem de pessoa de cabelo castanho curto sentada de costas para a câmera. Na frente da pessoa há um computador, com a tela mostrando código desfocado em desenvolvimento.">
+                </div>
+            </div>
+        </div>
+
+        <div class="info" id="biblio">
+            <h2>Quer saber mais?</h2>
+            <h4>Confira nossa bibliografia:</h4>
+            <p class="pbiblio">
+                ALVES, Lynn; COUTINHO, Isa de Jesus (org.). Jogos digitais e aprendizagem: fundamentos para uma prática baseada em evidências. 1. ed. Campinas: Papirus, 2017. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 07 maio 2025.
+            </p>
+            <p class="pbiblio">
+                ALVES, Lynn. "Relações entre os jogos digitais e aprendizagem: delineando percurso." Educ. Form. Tecnol (2008): 3-10.
+            </p> 
+            <p class="pbiblio">
+                CLUA, Esteban Walter Gonzalez; BITTENCOURT, João Ricardo. "Desenvolvimento de jogos 3D: concepção, design e programação." Anais da XXIV Jornada de Atualização em Informática do Congresso da Sociedade Brasileira de Computação. 2005.
+            </p>
+            <p class="pbiblio">
+                DEALESSANDRI, Marie (11 May 2022). "An introduction to games technical art". GamesIndustry.biz. Acesso em 13/05/2025.
+            </p>
+            <p class="pbiblio">
+                MENDES, Cláudio Lúcio. Jogos eletrônicos: diversão, poder e subjetivação. 1. ed. Campinas: Papirus, 2016. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 07 maio 2025.
+            </p>
+            <p class="pbiblio">
+                MOORE, Michael E.; NOVAK, Jeannie (2010). Game Industry Career Guide
+            </p>
+            <p class="pbiblio">
+                MORAIS, Felipe Castanheira; SILVA, Cristiano Maciel. "Desenvolvimento de jogos eletrônicos." e-xacta 2.2 (2009).
+            </p>
+            <p class="pbiblio">
+                TEKINBAS, Katie Salen; ZIMMERMAN, Eric. Rules of play: Game design fundamentals. MIT press, 2003.
+            </p>
+            <p class="pbiblio">
+                "Getting a Job as a Games Artist". www.cybergooch.com.  Acesso em 13/05/2025.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <i class="fa-solid fa-chevron-right" id="chevbottom"></i>
+        <a href="#home">Voltar para o início</a>
+        <i class="fa-regular fa-copyright"></i>
+        <h6>2025 Grupo 3 - 1º Período Engenharia de Software UniFasar</h6>
+    </footer>
+</body>
+</html>
